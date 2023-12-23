@@ -1,0 +1,1755 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior:smooth ;
+    font-size: 100%;
+
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* hero section */
+
+#hero{
+
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   background-image: url("image/b.kabab.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+
+#hero-content{
+    position: absolute;
+}
+
+#hero-content h1{
+    text-shadow: 5px 5px 5px rgb(8, 8, 8);
+    color: #ffffff;
+    font-weight: 10px;
+    font-size: 5rem;
+    font-family:  'Poppins', sans-serif;
+    font-family: 'Whisper', cursive;
+    
+}
+#hero-content h1:hover{
+
+    transform: scale(1);
+
+    
+}
+
+
+
+
+#hero-content h2{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    color: rgb(255, 247, 247);
+  
+    font-size: 3rem;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-family:  'Poppins', sans-serif;
+    font-family: 'Whisper', cursive;;
+}
+
+
+
+
+#hero-content a {
+
+    color: #ffffff;
+     padding: 3px 20px 3px 20px; 
+    border: 1px solid rgb(255, 255, 255);
+     border-radius: 25px; 
+    background: rgb(0, 0, 0);
+    
+    font-size: 2rem;
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+
+
+#hero-content a:hover{
+    border: 2px solid white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+/* header section */
+
+#header{
+
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
+
+    
+}
+
+
+#navbar{
+    display: flex;   
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 100px;
+    
+    
+}
+
+#Container{
+    width: 300px;
+    height: 100px;
+    /* border: 2px solid white; */
+}
+
+#nav-logo{
+    display: flex;
+    background-image: url("Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 140px;
+
+    position: relative;
+    bottom: 50px;
+    /* border: 2px solid white;  */
+    margin-left: 10px;    
+    
+    /* filter: brightness(80%); */
+   
+    
+    
+}
+
+
+#navbar ul{
+    display: flex;
+    
+
+}
+
+#navbar ul li{
+    list-style: none;
+    padding: 10px 15px 10px 15px;
+    margin-right: 5px;  
+    font-weight: bold;
+    margin-left: 100px;
+    
+    
+
+}
+
+#navbar ul li:hover{
+   /* border: 2px solid white; */
+   transform: scale(1.5);
+} 
+
+
+#navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold; 
+    margin-right: 100Spx;
+    
+    
+
+}
+
+
+/* #phone{
+
+    width: 150px;
+    padding: 10px 0 10px 40px;
+ 
+    margin-left: 20px;
+   
+}
+
+#phone:hover{
+
+    transform: scale(1.2);
+}*/
+
+/* #phone a{ */
+   
+    /* text-decoration: none;
+    color: #fff;
+    font-size: 1.rem;
+    /* padding: 3px 15px 3px 15px; */
+    /* margin-top: 10px; */
+    /* font-weight: bold; */ 
+    
+/* } */
+
+/*
+
+#Mobile-Menu{
+    display: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: magenta;
+}
+
+
+#Mobile-Menu ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+#Mobile-Menu ul li{
+    list-style: none;
+    padding: 0px 5px 0 5px;
+}
+
+#Mobile-Menu ul li{
+    text-decoration: none;
+    color:#fff ;
+}                                                          
+
+ */
+
+
+
+
+
+/* Menu section */
+
+#menu{ 
+    padding: 25px 0 25px 0;
+    
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+   
+   
+}
+
+#menu h4{
+    color: rgb(0, 0, 0);
+}
+/* #menu h1{
+    font-size: 1.5rem;
+    border: 2px solid rgb(231, 231, 231);
+    width: 200px;
+    margin-left: 525px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 5px;
+    
+}   */
+
+
+#section{
+
+    padding: 25px 0 25px 0; 
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana;
+    margin-top: 25px;
+    
+
+}
+
+#menu-row{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+
+
+
+#menu-col{
+    box-shadow: 2px 2px 2px #bbb;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    flex:1;
+}
+
+#menu-col h2{
+
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+}
+
+#image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    padding: 5px;
+}
+
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid orange;
+    object-fit: cover;
+
+}
+
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+
+#about{
+
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+
+#about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px 0 100px; 
+}
+
+
+.about-col{
+    flex: 1;
+}
+
+
+
+#about-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+#about-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+
+.about-col h1{
+    text-align: center;
+    font-family: cursive;
+}
+
+
+.about-col p{
+    text-align: justify;
+    font-weight: bold;
+
+}
+
+
+
+
+ #contact{
+    padding: 25px 0 25px 0;
+    
+}
+
+
+
+ .contact-col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    
+}  
+
+
+.contact-col p,h3{
+    font-weight: bold;
+    color: #000000;
+    margin: 10px;
+
+}
+
+.contact-col p a{
+    text-decoration: none;
+    color: #292929;
+}
+
+
+.contact-col form{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    width: 400px;
+    height: 360px;
+    padding: 20px 40px 20px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+
+.contact-col form h2{
+   text-align: center;
+   font-family: cursive;
+   color: #000000;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    
+}
+
+.contact-col form input{
+    width: 250px;
+    height: 17pt;
+    padding: 0;
+    margin-left: 75px;
+    margin-top: 10px;
+    border: 2px solid black;
+    
+    
+}
+
+.contact-col form textarea{
+    width: 240px;
+    height: 50px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left:75px;
+    border: 2px solid black;
+   
+    
+}
+
+
+.contact-col form button{
+    /* margin-bottom: 50px; */
+    margin-left: 120px;
+    margin-top: 50px;
+    
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    
+   
+}
+.contact-col form button:hover{
+   
+    background-color: white;
+    color: black;
+}
+
+
+
+
+#footer{
+    background-color: #292929;
+    padding: 20px;
+    position: relative;
+}
+
+#footer h5{
+    text-align: center;
+    color: orange ;
+}
+
+
+
+#footer h5 a{
+    color: #fff;
+    
+    text-decoration: none;
+}
+
+
+#top{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    color: white;
+
+
+}
+
+#top a{
+   
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+@media(min-width: 900px) and (max-width: 1000px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 10px 0 30px;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 5px;
+        
+    }
+    #hero-content h1{
+        font-size: 4rem;
+    }
+
+    #hero-content h2{
+        font-size: 2.5rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 200px;
+        height: 100px;
+        /* border: 2px solid white; */
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 280px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 50px;
+        right: 50px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        padding: 0 100px 0 100px;
+    }
+    
+    
+}
+
+
+
+@media(min-width: 800px) and (max-width: 900px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 10px 0 30px;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 5px;
+        
+    }
+    #hero-content h1{
+        font-size: 3rem;
+    }
+
+    #hero-content h2{
+        font-size: 2.5rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 200px;
+        height: 100px;
+        /* border: 2px solid white; */
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 280px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 50px;
+        right: 50px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    
+    
+}
+
+
+
+@media(min-width: 750px) and (max-width: 800px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 10px 0 30px;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 5px;
+        
+    }
+    #hero-content h1{
+        font-size: 3rem;
+    }
+
+    #hero-content h2{
+        font-size: 2.5rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 200px;
+        height: 100px;
+        /* border: 2px solid white; */
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 280px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 50px;
+        right: 50px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    
+    
+}
+
+
+
+@media(min-width: 700px) and (max-width: 750px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 10px 0 30px;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 5px;
+        
+    }
+    #hero-content h1{
+        font-size: 3rem;
+    }
+
+    #hero-content h2{
+        font-size: 2.5rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 160px;
+        height: 100px;
+        /* border: 2px solid white; */
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 280px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 50px;
+        right: 70px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    
+    
+}
+
+
+
+
+@media(min-width: 650px) and (max-width: 700px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 10px 0 10px;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 2px;
+        
+    }
+    #hero-content h1{
+        font-size: 2.5rem;
+    }
+
+    #hero-content h2{
+        font-size: 2rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 180px;
+        height: 100px;
+        /* border: 2px solid white; */
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 270px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 50px;
+        right: 70px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 10px;
+        
+        
+        
+    }
+    
+    
+}
+
+
+@media(min-width: 600px) and (max-width: 650px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 10px 0 5px;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 2px;
+        
+    }
+    #hero-content h1{
+        font-size: 2rem;
+    }
+
+    #hero-content h2{
+        font-size: 1.5rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 180px;
+        height: 100px;
+        /* border: 2px solid white; */
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 270px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 50px;
+        right: 70px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+
+        
+    }
+    
+    
+}
+
+
+
+@media(min-width: 550px) and (max-width: 600px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    #navbar ul  {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 250px 0 0px;
+      
+    }
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold; 
+        margin: 0 5px 0 5px;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 0;
+        
+    }
+    #hero-content h1{
+        font-size: 1.5rem;
+    }
+
+    #hero-content h2{
+        font-size: 1.1rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 140px;
+        height: 100px;
+        /* border: 2px solid white; */
+        margin-right: 5px;
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 40px;
+        right: 70px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+
+        
+    }
+    
+    
+}
+
+
+
+@media(min-width: 500px) and (max-width: 550px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    #navbar ul  {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 250px 0 0px;
+      
+    }
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold; 
+        margin: 0 0 0 0;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 0;
+        
+    }
+    #hero-content h1{
+        font-size: 1.5rem;
+    }
+
+    #hero-content h2{
+        font-size: 1.1rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 140px;
+        height: 100px;
+        /* border: 2px solid white; */
+        margin-right: 5px;
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 230px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 35px;
+        right: 70px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+@media(min-width: 450px) and (max-width: 500px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    #navbar ul  {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 250px 0 0px;
+      
+    }
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold; 
+        margin: 0 0 0 0;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 0;
+        
+    }
+    #hero-content h1{
+        font-size: 1.5rem;
+    }
+
+    #hero-content h2{
+        font-size: 1.1rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 1px;
+        height: 100px;
+        /* border: 2px solid white; */
+        margin-right: 100px;
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 210px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 30px;
+        right: 70px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+
+        
+    }
+    
+    
+}
+
+
+
+
+@media(min-width: 400px) and (max-width: 450px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    #navbar ul  {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 40px;
+      
+    }
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: bold; 
+        margin: 0 0 0 0;
+        padding-left: 5px;
+       
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1rem;
+         font-weight: bold;  
+        margin-right: 2px;
+        
+    }
+    #hero-content h1{
+        font-size: 1.5rem;
+    }
+
+    #hero-content h2{
+        font-size: 1.1rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+     #Container{
+        width: 80px;
+        height: 100px;
+        
+        margin-right: 2px;
+        
+   
+        padding: 0 5px 0 5px;
+    } 
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 110px;
+        height: 110px;
+    
+        position: relative;
+        bottom: 10px;
+        right: 40px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    
+    
+}
+
+
+
+
+
+@media(min-width: 450px) and (max-width: 500px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    #navbar ul  {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin: 0 250px 0 0px;
+      
+    }
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold; 
+        margin: 0 0 0 0;
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 0;
+        
+    }
+    #hero-content h1{
+        font-size: 1.5rem;
+    }
+
+    #hero-content h2{
+        font-size: 1.1rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+    #Container{
+        width: 1px;
+        height: 100px;
+        /* border: 2px solid white; */
+        margin-right: 100px;
+    }
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 210px;
+        height: 140px;
+    
+        position: relative;
+        bottom: 30px;
+        right: 70px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    #menu-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+
+        
+    }
+    
+    
+}
+
+
+
+
+@media(min-width: 350px) and (max-width: 400px){
+    #navbar{
+        /* display: flex; */
+         /* justify-content: space-around;   */
+        
+        
+        background-color: #000000;
+        
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+    
+        height: 100px;
+        border: 2px solid orange;
+        
+        
+    }
+    #navbar ul  {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: bold; 
+        margin-right: 40px;
+      
+    }
+    #navbar ul li {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: bold; 
+        margin: 0 0 0 0;
+        padding-left: 5px;
+       
+      
+    }
+    #navbar ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1rem;
+         font-weight: bold;  
+        margin-right: 2px;
+        
+    }
+    #hero-content h1{
+        font-size: 1.5rem;
+    }
+
+    #hero-content h2{
+        font-size: 1.1rem;
+    }
+    #navbar ul li:hover{
+        /* border: 2px solid white; */
+        transform: scale(1.5);
+     } 
+     
+     #Container{
+        width: 60px;
+        height: 100px;
+        
+        margin-right: 2px;
+        
+   
+        padding: 0 5px 0 5px;
+    } 
+
+    #nav-logo{
+        /* display: flex; */
+        background-image: url(Latifa/R.Images/spoon-and-fork-restaurant-logo_212966-original.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 95px;
+        height: 95px;
+    
+        position: relative;
+        bottom: 2px;
+        right: 40px;
+        /* border: 2px solid white;  */
+        /* margin-left: 10px;     */
+        
+    }
+    #menu-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+
+        
+    }
+    
+#hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100wh;
+    height: 100vh;
+   background-image: url(/image/b.kabab.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
+    
+    
+}
