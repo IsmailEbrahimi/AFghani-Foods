@@ -937,6 +937,7 @@ body{
    
 }
 
+
     #navbar ul li {
         text-decoration: none;
         color: #ffffff;
@@ -1033,6 +1034,7 @@ body{
     filter: brightness(30%);
    
 }
+
 
     #navbar ul li {
         text-decoration: none;
@@ -1131,6 +1133,7 @@ body{
     filter: brightness(30%);
    
 }
+
 
     #navbar ul  {
         text-decoration: none;
@@ -1349,6 +1352,7 @@ body{
    
 }
 
+
     #navbar ul  {
         text-decoration: none;
         color: #ffffff;
@@ -1439,6 +1443,23 @@ body{
         
         
     }
+    #hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   background-image: url("/image/b.kabab.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(30%);
+   
+}
+
     #navbar ul  {
         text-decoration: none;
         color: #ffffff;
@@ -1511,22 +1532,7 @@ body{
         
     }
     
-#hero::before{
 
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-   background-image: url("/image/b.kabab.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    filter: brightness(30%);
-   
-}
 
     
     
@@ -1611,8 +1617,7 @@ body{
         /* margin-left: 10px;     */
         
     }
-    
-#hero::before{
+    #hero::before{
 
     content: "";
     position: absolute;
@@ -1620,7 +1625,7 @@ body{
     left: 0;
     width: 100%;
     height: 100vh;
-   background-image: url("./image/b.kabab.jpg");
+   background-image: url("/image/b.kabab.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1628,6 +1633,7 @@ body{
     filter: brightness(30%);
    
 }
+
 
     #menu-row{
         display: flex;
@@ -1739,9 +1745,9 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100wh;
+    width: 100%;
     height: 100vh;
-   background-image: url("./image/b.kabab.jpg");
+   background-image: url("/image/b.kabab.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1749,6 +1755,7 @@ body{
     filter: brightness(30%);
    
 }
+
 
     
     
