@@ -1755,6 +1755,19 @@ body{
     filter: brightness(30%);
    
 }
+    #hero-content a {
+
+    color: #ffffff;
+     padding: 20px 20px 20px 20px; 
+    border: 1px solid rgb(255, 255, 255);
+     border-radius: 25px; 
+    background: rgb(0, 0, 0);
+    
+    font-size: 2rem;
+    text-decoration: none;
+    
+    
+}
 
 
     
