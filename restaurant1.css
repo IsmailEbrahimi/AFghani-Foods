@@ -1694,11 +1694,11 @@ body{
         
     }
     #hero-content h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     #hero-content h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     #navbar ul li:hover{
         /* border: 2px solid white; */
